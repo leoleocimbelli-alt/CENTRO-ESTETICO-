@@ -3,103 +3,44 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Centro Estetico NOME – Trattamenti viso, corpo e mani</title>
-<meta name="description" content="Centro estetico a CITTÀ: trattamenti viso, corpo, epilazione, manicure. Prenota via WhatsApp.">
+<title>Home – Ne Vale la Pena</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#fbf7f8;--ink:#2a1f2d;--muted:#6e5f72;--accent:#8a5a6b;--sage:#dde5dc;--line:#e8dde1;--wa:#1f8f52}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Nunito Sans",system-ui,sans-serif}
-h1,h2,h3{font-family:Marcellus,Georgia,serif;font-weight:400;line-height:1.2;margin:0}
-a{color:inherit}
-.wrap{max-width:960px;margin:0 auto;padding:0 22px}
-header{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;max-width:960px;margin:0 auto;gap:12px;flex-wrap:wrap}
-header strong{font-family:Marcellus,serif;font-size:1.25rem;font-weight:400}
-nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-size:.95rem}
-nav a:hover{color:var(--accent)}
-.hero{background:var(--sage);padding:76px 0 84px}
-.hero h1{font-size:clamp(2.1rem,6vw,3.6rem);max-width:15ch}
-.hero p{max-width:46ch;color:var(--muted);margin:18px 0 28px}
-.btn{display:inline-block;padding:13px 24px;border-radius:999px;background:var(--ink);color:#fff;text-decoration:none;font-weight:600}
-.btn:hover{background:var(--accent)}
-.btn.wa{background:var(--wa)}
-.btn.small{padding:9px 18px;font-size:.92rem}
-section{padding:64px 0}
-h2{font-size:2rem;margin-bottom:26px}
-.services{list-style:none;padding:0;margin:0}
-.services li{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
-.services span{color:var(--muted);display:block;font-size:.93rem}
-.services b{white-space:nowrap;color:var(--accent);font-weight:600}
-.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:26px}
-.team article{border-top:2px solid var(--accent);padding-top:14px}
-.team p{color:var(--muted);margin:6px 0 14px}
-.book{background:var(--ink);color:#fff}
-.book p{max-width:50ch;color:#d9ccdc}
-.book .btn{background:#fff;color:var(--ink)}
-.book .btn:hover{background:var(--sage)}
-footer{padding:36px 0;color:var(--muted);font-size:.92rem}
-footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px}
-a:focus-visible,.btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-@media (max-width:560px){nav a{margin:0 14px 0 0}.hero{padding:52px 0 60px}}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-  <strong>Centro Estetico NOME</strong>
-  <nav><a href="#servizi">Servizi</a><a href="#team">Il team</a><a href="#contatti">Contatti</a></nav>
-</header>
-
+<header class="top"><div class="wrap">
+<a class="logo" href="index.html">Ne Vale la Pena</a>
+<nav>
+<a href="index.html" aria-current="page">Home</a>
+<a href="chi-siamo.html" >Chi siamo</a>
+<a href="orari.html" >Orari</a>
+<a href="contatti.html" >Contatti</a>
+<a class="btn" href="prenota.html">Prenota</a>
+</nav>
+</div></header>
 <main>
 <div class="hero"><div class="wrap">
-  <h1>Prenditi cura di te, con calma.</h1>
-  <p>Trattamenti viso, corpo e mani in un ambiente tranquillo. Scrivici su WhatsApp e troviamo insieme il momento giusto.</p>
-  <a class="btn wa" href="https://wa.me/39XXXXXXXXXX?text=Ciao%2C%20vorrei%20prenotare%20un%20trattamento">Prenota su WhatsApp</a>
+<h1>Prenditi cura di te, con calma.</h1>
+<p>Centro estetico a Oleggio: trattamenti viso, corpo e mani in un ambiente tranquillo. Scegli il servizio e scrivici su WhatsApp.</p>
+<a class="btn wa" href="prenota.html">Prenota un appuntamento</a>
 </div></div>
-
-<section id="servizi"><div class="wrap">
-  <h2>Servizi e prezzi</h2>
-  <ul class="services">
-    <li><div>Pulizia del viso<span>Detersione profonda, vapore, maschera – 60 min</span></div><b>50 €</b></li>
-    <li><div>Trattamento anti-età<span>Siero e massaggio drenante – 75 min</span></div><b>70 €</b></li>
-    <li><div>Massaggio rilassante<span>Corpo intero – 50 min</span></div><b>55 €</b></li>
-    <li><div>Epilazione<span>Gambe, inguine, ascelle: chiedi il listino</span></div><b>da 15 €</b></li>
-    <li><div>Manicure<span>Con smalto classico o semipermanente – 45 min</span></div><b>da 20 €</b></li>
-    <li><div>Pedicure estetico<span>Cura e smalto – 50 min</span></div><b>da 30 €</b></li>
-  </ul>
-</div></section>
-
-<section id="team" style="background:#fff"><div class="wrap">
-  <h2>Il team</h2>
-  <div class="team">
-    <article><h3>Giulia</h3><p>Trattamenti viso e anti-età.</p>
-      <a class="btn small wa" href="https://wa.me/39XXXXXXXXXX?text=Ciao%20Giulia%2C%20vorrei%20informazioni">Scrivi a Giulia</a></article>
-    <article><h3>Marta</h3><p>Massaggi e trattamenti corpo.</p>
-      <a class="btn small wa" href="https://wa.me/39XXXXXXXXXX?text=Ciao%20Marta%2C%20vorrei%20informazioni">Scrivi a Marta</a></article>
-    <article><h3>Sara</h3><p>Manicure, pedicure e epilazione.</p>
-      <a class="btn small wa" href="https://wa.me/39XXXXXXXXXX?text=Ciao%20Sara%2C%20vorrei%20informazioni">Scrivi a Sara</a></article>
-  </div>
-</div></section>
-
-<section class="book" id="prenota"><div class="wrap">
-  <h2>Prenota il tuo appuntamento</h2>
-  <p>Presto potrai vedere gli orari liberi e prenotare online. Nel frattempo scrivici su WhatsApp: rispondiamo appena possibile.</p>
-  <a class="btn" href="https://wa.me/39XXXXXXXXXX?text=Ciao%2C%20vorrei%20prenotare">Scrivici su WhatsApp</a>
-</div></section>
-
-<section id="contatti"><div class="wrap">
-  <h2>Contatti</h2>
-  <p>Via NOME VIA 00, CITTÀ<br>Lun–Ven 9:00–19:00 · Sab 9:00–13:00<br>Tel. <a href="tel:+39XXXXXXXXXX">XXX XXX XXXX</a></p>
+<section><div class="wrap">
+<h2>Servizi e prezzi</h2>
+<ul class="list">
+<li><div>Pulizia del viso<span>Detersione profonda, vapore, maschera – 60 min</span></div><b>50 €</b></li>
+<li><div>Trattamento anti-età<span>Siero e massaggio drenante – 75 min</span></div><b>70 €</b></li>
+<li><div>Massaggio rilassante<span>Corpo intero – 50 min</span></div><b>55 €</b></li>
+<li><div>Epilazione<span>Gambe, inguine, ascelle: chiedi il listino</span></div><b>da 15 €</b></li>
+<li><div>Manicure<span>Smalto classico o semipermanente – 45 min</span></div><b>da 20 €</b></li>
+<li><div>Pedicure estetico<span>Cura e smalto – 50 min</span></div><b>da 30 €</b></li>
+</ul>
 </div></section>
 </main>
-
 <footer><div class="wrap">
-  <span>© 2026 Centro Estetico NOME – P.IVA 00000000000</span>
-  <a href="#">Privacy policy</a>
+<span>© 2026 Ne Vale la Pena – P.IVA 00000000000</span>
+<a href="#">Privacy policy</a>
 </div></footer>
-
 </body>
 </html>
